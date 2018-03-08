@@ -1,0 +1,117 @@
+/*a{*/
+    /*color: #fff;*/
+    /*text-decoration: none;*/
+/*}*/
+/*.tab-item.login-visible{*/
+    /*display: none;*/
+/*}*/
+.facebook-avatar a{
+    display: inline-block;
+}
+.card-avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+}
+.comment-avatar{
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+}
+.card-digest{
+    /*max-height: 5em;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;  /*非规范属性*/
+    -webkit-box-orient: vertical;
+}
+.card-title{
+    margin-left: 10px;
+}
+ul.panel-list{
+    background: transparent;
+    color: white;
+}
+/*ul.panel-list::after, .list-block .item-inner:after{*/
+    /*content: "";*/
+    /*display: none;*/
+/*}*/
+ul.no-after::after, .item-inner.no-after::after, ul.no-before::before{
+    content: "";
+    display: none;
+}
+.gray-a{
+    color: gray;
+}
+.pull-left .icon{
+    margin-left: 0.8em;
+}
+.pull-right .icon{
+    margin-right: 0.8em;
+}
+.content .forum-post{
+    margin-bottom: 1em;
+}
+.forum-post .post-title{
+    font-size: 1.2em;
+    line-height: 34px;
+}
+/*.post-comment .facebook-name{*/
+    /*line-height: 28px;*/
+/*}*/
+.post-comment .card-header{
+    line-height: 14px;
+}
+.post-comment .card{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.post-comment .comment-time{
+    margin-left: 16px;
+    font-size: 0.7em;
+    line-height: 0.7em;
+}
+.post-comment .facebook-name{
+    font-size: 0.7em;
+}
+.forum-post .facebook-name{
+    line-height: 34px;
+}
+.univ-list .row .col-50{
+    width: 50%;
+}
+.user-avatar{
+    float: left;
+}
+.user-name{
+    margin-left: 44px;
+    line-height: 34px;
+    color: #fff;
+}
+/*.row .col-15{*/
+    /*width: 15%;*/
+/*}*/
+
+
+/* /me */
+#personal-top{
+    width:100%;
+    text-align: center;
+    margin-top: -100px;
+    height: 240px;
+    background-image: url("/images/personal_bg_top.png");
+    background-size: 100% 100%;
+
+}
+#personal-avatar{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    margin-top: 125px;
+}
+#personal-name{
+    margin-top: 10px;
+    color: white;
+}
